@@ -42,8 +42,7 @@ weather-app/
 
 ### Clone this repository:
 ```bash
-git clone https://github.com/bryanstanleyyy/Timezone-Converter.git
-cd Timezone-Converter/src
+git clone https://github.com/bryanstanleyyy/Multi-Language-Weather-App.git
 ```
 
 ### Step 1: Fetch Weather Data with Python
