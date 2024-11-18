@@ -20,7 +20,7 @@ def fetch_weather(city):
 
          # Determine the output file path (in the Java folder's data directory)
         project_root = os.path.dirname(os.path.dirname(__file__))  # weather-app/
-        output_file = os.path.join(project_root, "java/data/weather_data.txt")
+        output_file = os.path.join(project_root, "java/weather_data.txt")
 
         # Write to a file for Java to read
         with open("weather_data.txt", "w") as file:
