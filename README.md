@@ -79,20 +79,20 @@ cd Multi-Language-Weather-App
 
 1. Run the Python script:
    ```bash
-   python weather_fetcher.py "New York"
+   python weather_fetcher.py "Dubai"
    ```
 
 2. Output in `weather_data.txt`:
    ```
-   City: New York
-   Temperature: 22.5 °C
+   City: Dubai
+   Temperature: 23.96 °C
    Description: clear sky
    ```
 
 3. Launch the Java GUI, which displays:
    ```
-   City: New York
-   Temperature: 22.5 °C
+   City: Dubai
+   Temperature: 23.96 °C
    Description: clear sky
    ```
 
