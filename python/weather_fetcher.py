@@ -1,5 +1,6 @@
 import sys
 import requests
+import os
 
 def fetch_weather(city):
     api_key = "82cbe9c520bc7e16170e0b0bcf5e8d23"
