@@ -23,16 +23,11 @@ def fetch_weather(city):
         java_folder = os.path.join(project_root, "java")  # Make sure it's correctly pointing to the 'java' folder
         output_file = os.path.join(java_folder, "weather_data.txt")  # Output file should be in 'java' folder
 
-        # Debugging step: Print the target path
-        print(f"Saving weather data to: {output_file}")
-
         # Write weather data to the file in the java folder
         with open(output_file, "w", encoding="utf-8") as file:
             file.write(f"City: {weather_info['city']}\n")
             file.write(f"Temperature: {weather_info['temperature']} °C\n")
             file.write(f"Description: {weather_info['description']}\n")
-
-        print(f"Weather data saved to {output_file}")
 
     except requests.exceptions.RequestException as e:
         print("Error fetching weather data:", e)
