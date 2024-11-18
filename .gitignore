@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.log
+
+# Java
+*.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+weather_data.txt
