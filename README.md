@@ -25,6 +25,9 @@ Add the following to `requirements.txt`:
 requests
 ```
 
+### OpenWeatherMap API Key
+Sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api) and replace `"your_openweathermap_api_key"` in the `weather_fetcher.py` file with your API key.
+
 ## Project Structure
 
 ```
@@ -37,12 +40,6 @@ weather-app/
 │   ├── weather_data.txt          # Temporary file to store weather data
 ├── README.md                     # Project documentation
 ```
-
-
-## Clone this repository:
-   ```bash
-   git clone https://github.com/bryanstanleyyy/Timezone-Converter.git
-   cd Timezone-Converter/src
 
 ## Usage
 
