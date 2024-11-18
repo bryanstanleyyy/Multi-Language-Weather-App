@@ -43,6 +43,7 @@ weather-app/
 ### Clone this repository:
 ```bash
 git clone https://github.com/bryanstanleyyy/Multi-Language-Weather-App.git
+cd Multi-Language-Weather-App
 ```
 
 ### Step 1: Fetch Weather Data with Python
