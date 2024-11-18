@@ -1,3 +1,0 @@
-City: New York
-Temperature: 22.5 °C
-Description: clear sky
