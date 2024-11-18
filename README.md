@@ -25,9 +25,6 @@ Add the following to `requirements.txt`:
 requests
 ```
 
-### OpenWeatherMap API Key
-Sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api) and replace `"your_openweathermap_api_key"` in the `weather_fetcher.py` file with your API key.
-
 ## Project Structure
 
 ```
@@ -42,6 +39,12 @@ weather-app/
 ```
 
 ## Usage
+
+### Clone this repository:
+```bash
+git clone https://github.com/bryanstanleyyy/Timezone-Converter.git
+cd Timezone-Converter/src
+```
 
 ### Step 1: Fetch Weather Data with Python
 1. Navigate to the `python` directory:
